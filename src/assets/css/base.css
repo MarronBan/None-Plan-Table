@@ -1,0 +1,13 @@
+html {
+	box-sizing: border-box;
+	background: url("../imgs/oh-la-la.jpeg") center no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
