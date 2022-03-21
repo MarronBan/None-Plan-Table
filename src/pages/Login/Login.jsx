@@ -1,6 +1,8 @@
 import React from "react"
 import { Button } from "@mui/material"
 import { MyPage } from "./css/Login"
+import BasicDatePicker from "../../components/DatePicker"
+import A from "../../components/EventTest"
 export default function Login() {
 	return (
 		<MyPage>
@@ -18,6 +20,8 @@ export default function Login() {
 						required
 					/>
 					<input type="submit" value="+ Add Item" />
+					<BasicDatePicker></BasicDatePicker>
+					<A></A>
 				</form>
 			</div>
 		</MyPage>

@@ -5,6 +5,9 @@ export const MyPage = styled.div`
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	> .wrapper {
+		background-color: rgba(255, 255, 255, 0.8);
+	}
 	> .wrapper > .plates {
 		color: white;
 	}
